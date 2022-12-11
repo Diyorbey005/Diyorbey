@@ -1,0 +1,280 @@
+.wrapper{
+  width: 1300px;
+height: 0 auto;
+border: 1px solid;
+/* box-shadow: 1px 1px black 10px; */
+margin-left: 100px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* barcha buttonlarga  */
+
+* button{
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+  background-color:#00BAFC;
+  border-color: #00BAFC;
+  color: white;
+}
+
+
+button:hover{
+  background-color: rgba(0, 186, 252, 0.8);
+ }
+
+button:active{
+  background-color: rgba(0, 186, 252, 0.6);
+}
+
+/* font qoshish kk */
+
+header{
+  width: 1300px;
+  height: 56px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  background-color: #FFFFFF;
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.21)
+
+}
+
+.top-list{
+
+  display: flex;
+  margin-right: -240px;
+}
+
+.item-list a{
+  color: black;
+}
+
+.tel-btn{
+  display: flex;
+  width: 159px;
+  height: 40px;
+  background-color: #00BAFC;
+  border-radius: 10px;
+  align-items: center;
+  justify-content:center ;
+  color: #FFFFFF;
+}
+
+.tel-btn:hover{
+  border: 2px solid #00BAFC;
+  background-color: #FFFFFF;
+  color: #00BAFC;
+}
+
+
+
+.item-list{
+
+  color: black;
+  margin-left: 20px;
+}
+.item-list:hover{
+  border-bottom: 2px solid;
+}
+
+.item-list a:active{
+color: #FFFFFF;
+background-color: #FFFFFF;
+
+}
+
+
+
+.buyurtma-btn :hover{
+background-color: #00b9fca9;
+}
+
+.buyurtma-btn :active{
+ color:  #00BAFC99;
+}
+
+.hearor{
+  width: 100%;
+  height: 418px;
+  margin-top: 106px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hearor iframe{
+  border-radius: 10px;
+  width: 458px;
+  height: 258px;
+}
+
+.xizmatlar-bolimi{
+  text-align: center;
+  width: 100%;
+  height: 879px;
+  padding: 56px, 0px;
+  background-color: #FFFFFF;
+}
+
+.box{
+  display: flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+
+}
+
+.box-item{
+  width: 320px;
+height: 260px;
+box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.111);
+margin-bottom: 30px;
+padding: 10px;
+border-radius: 5px;
+}
+
+.box-item:hover{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.481);
+}
+
+.asosiy-bolim{
+  text-align: start;
+  width: 100%;
+  height: 0 auto;
+font-size: 20px;
+}
+
+.asosiy-bolim p{
+font-size: 16px;
+}
+
+.as-text{
+  text-align: center;
+
+}
+
+
+.left{
+  display: flex;
+margin-top: 50px;
+margin-bottom: 60px;
+}
+
+.left img{
+  margin-left: 120px;
+  width: 300px;
+}
+
+.left div{
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.asosiy-bolim button{
+  margin-left: 550px;
+  margin-bottom: 50px;
+
+}
+
+.right{
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: space-evenly;
+
+
+}
+
+.right img{
+  margin-right: 100px;
+
+}
+
+.right div{
+  margin-top: 40px;
+margin-left: 40px;
+}
+
+.xizmat-buyurtma{
+  display: flex;
+  justify-content: center;
+}
+
+.xizmat-buyurtma a{
+
+  margin-left: 20px;
+  /* border-bottom: 2px solid; */
+  color: #00BAFC;
+}
+
+.buyurtma-bolim{
+  width: 100%;
+  height: 543px;
+  background-color: #00BAFC;
+  color: #FFFFFF;
+      text-align: center;
+      padding-top: 40px;
+  border: 2px solid;
+
+}
+
+.buyurtma-bolim form{
+  width: 348px;
+  height: 304px;
+  margin-top: 60px;
+  background-color: #FFFFFF;
+  margin-left: 450px;
+  border-radius: 5px;
+
+}
+
+.buyurtma-bolim input{
+  width: 300px;
+  height: 56px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+  background-color: #F3F3F3;
+}
+
+.buyurtma-bolim select{
+  width: 300px;
+  height: 56px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+  background-color: #F3F3F3;
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: start;
+  background-color: #191919;
+  color: #FFFFFF;
+}
+
+footer li{
+  margin-left: 60px;
+}
+
+.biz-internetda li{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.li-hover:hover{
+color: #00BAFC;
+}
+
+.li-hover:active{
+  color: #00b9fc80;
+}
